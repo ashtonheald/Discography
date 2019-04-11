@@ -31,9 +31,9 @@
             <div class="collapse navbar-collapse" id="navbarButton">
             
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li><a class="nav-item nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-item nav-link" href="albums.html">Albums</a></li>
-                <li><a class="nav-item nav-link ml-sm-auto active" href="about.html">The Band</a></li>
+                <li><a class="nav-item nav-link" href="index.php">Home</a></li>
+                <li><a class="nav-item nav-link" href="albums.php">Albums</a></li>
+                <li><a class="nav-item nav-link ml-sm-auto active" href="about.php">The Band</a></li>
                 </ul>
             </div>        
     </nav>
