@@ -1,17 +1,9 @@
+<?php 
+$pageTitle = 'The Killers Albums' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>The Killers - Albums</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
-	<link rel="icon" href="images/k_icon.png">
-	<meta charset="UTF-8">
-	<meta name="description" content="Website about The Killers">
-	<meta name="keywords" content="bands,rock,music">
-	<meta name="author" content="Tyler Gilbert">
+	<?php include './includes/header.php' ?>
 </head>
 
 <body class="albums">
@@ -27,9 +19,9 @@
             <div class="collapse navbar-collapse" id="navbarButton">
             
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li><a class="nav-item nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-item nav-link ml-sm-auto active" href="albums.html">Albums</a></li>
-                <li><a class="nav-item nav-link" href="about.html">The Band</a></li>
+                <li><a class="nav-item nav-link" href="index.php">Home</a></li>
+                <li><a class="nav-item nav-link ml-sm-auto active" href="albums.php">Albums</a></li>
+                <li><a class="nav-item nav-link" href="about.php">The Band</a></li>
                 </ul>
             </div>       
     </nav>
