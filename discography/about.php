@@ -1,5 +1,6 @@
 <?php 
-$pageTitle = 'The Killers About' ?>
+$pageTitle = 'The Killers About'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
