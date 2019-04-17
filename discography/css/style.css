@@ -176,6 +176,15 @@ div.card {
   transition: all 0.3s 0s ease-in;
   z-index: 1;
 }
+div.card-album:nth-child(-n+3){
+  height: 1280px;
+}
+div.card-album:nth-child(4),div.card-album:nth-child(5),div.card-album:nth-child(6){
+  height: 1880px;
+}
+div.card-album:nth-last-child(-n+3){
+  height: 1300px;
+}
 div.card img {
   max-width: 300px;
 }
@@ -184,25 +193,6 @@ div.card div.card-title {
   padding: 6px 15px 10px;
   position: relative;
   z-index: 0;
-}
-div.card div.card-title a.toggle-info {
-  border-radius: 32px;
-  height: 32px;
-  padding: 0;
-  position: absolute;
-  right: 15px;
-  top: 10px;
-  width: 32px;
-}
-div.card div.card-title a.toggle-info {
-  right: 14px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-div.card div.card-title a.toggle-info {
-  left: 14px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
 }
 div.card div.card-title h2 {
   font-size: 24px;
@@ -224,7 +214,6 @@ div.card div.card-description {
 }
 
 /* Media Queries */
-
 /* iPhone 4 and 4S */
 @media only screen
 and (min-device-width: 320px)
@@ -252,7 +241,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		height: 190px;
 	}
 }
-
+div.card-album{
+  height: auto;
+}
 /* iPhone 5, 5S, 5C, and 5SE */
 @media only screen
 and (min-device-width: 320px)
@@ -279,7 +270,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		height: 190px;
 	}
 }
-
+div.card-album{
+  height: auto;
+}
 /* iPhone 6, 6S, 7, and 8 */
 @media only screen
 and (min-device-width: 375px)
@@ -306,7 +299,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		height: 210px;
 	}
 }
-
+div.card-album{
+  height: auto;
+}
 /* iPhone 6+, 7+, 8+ */
 @media only screen
 and (min-device-width: 414px)
@@ -338,7 +333,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
 		height: 1024px;
 	}
 }
-
+div.card-album{
+  height: auto;
+}
 /* iPhone X */
 @media only screen
 and (min-device-width: 375px)
@@ -364,4 +361,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 		width: 290px;
 		height: 230px;
 	}
+}
+div.card-album{
+  height: auto;
 }

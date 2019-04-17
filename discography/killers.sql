@@ -30,7 +30,9 @@ CREATE TABLE tracks (
 	track_name varchar(256) not null
 );
 
-
+INSERT INTO tracks (album_id, track_name)
+VALUES ('', '');
+# 138 or so tracks were inserted.
 
 
 
